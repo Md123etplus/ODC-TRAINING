@@ -10,6 +10,8 @@ uint8_t red2=6;
 
 void setup() {
   // configure pin 3 as output
+  //another alternative is to use a for loop
+  // for(int i=3;i<=8;i++)   pinMode(i, OUTPUT);
   pinMode(green1, OUTPUT);
   pinMode(orange1, OUTPUT);
   pinMode(red1, OUTPUT);
