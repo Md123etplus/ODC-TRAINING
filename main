@@ -10,12 +10,12 @@ uint8_t red2=6;
 
 void setup() {
   // configure pin 3 as output
-  pinMode(3, OUTPUT);
-  pinMode(4, OUTPUT);
-  pinMode(5, OUTPUT);
-  pinMode(6, OUTPUT);
-  pinMode(7, OUTPUT);
-  pinMode(8, OUTPUT);
+  pinMode(green1, OUTPUT);
+  pinMode(orange1, OUTPUT);
+  pinMode(red1, OUTPUT);
+  pinMode(red2, OUTPUT);
+  pinMode(orange2, OUTPUT);
+  pinMode(green2, OUTPUT);
   // pinMode(3, INPUT_PULLUP)
 }
 
